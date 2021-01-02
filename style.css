@@ -1,0 +1,73 @@
+:root{
+    -grid-cols: 1;
+    -grid-rows: 1;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: white; 
+    color: #404040;
+}
+
+header{
+    /* IPN color: #6C1D45, UoM color: #660099
+    Color blend: #690F6F*/
+    background: #690F6F; 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    width: 65%;
+    font-size: 24px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul li{
+    border: 2px solid white;
+}
+
+header nav ul li a{
+    color:white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* ******* */
+/* Classes */
+/* ******* */
+
+.gridElement{
+    font-size: 25px;
+    background: #404040;
+    color: white;
+    text-align: center;
+}
+
+/* *** */
+/* IDs */
+/* *** */
+#myLogo{
+    text-align: center;
+}
+
+#separator{
+    background: #690F6F;
+    width: 75%;
+    height: 20px;
+    border: 2px solid white;
+}
+
+#numbersGrid{
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols),18px);
+    grid-template-rows: repeat(var(--grid-rows),1fr);
+    grid-gap:2px;
+}
