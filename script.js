@@ -5,7 +5,7 @@
 
 const gridContainer=document.getElementById("numbersGrid");
 let rows=6;
-let cols=20;
+let cols=30;
 gridContainer.style.setProperty('--grid-rows',rows);
 gridContainer.style.setProperty('--grid-cols',cols);
 
