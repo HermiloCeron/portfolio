@@ -75,3 +75,97 @@ document.getElementById("but4").onclick=function(){
     document.getElementById("img").src="./pics/native-python.jpg";
     document.getElementById("img").alt="My native python projects";
 }
+
+// **************************************** //
+// BUTTONS ON THE ELECTRICAL SKILLS SECTION //
+// **************************************** //
+
+let status1=0, status2=0, status3=0, status4=0;
+
+// Add a picture
+// https://www.geeksforgeeks.org/how-to-create-an-image-element-dynamically-using-javascript/
+
+//Power systems
+function pic1(){
+    document.getElementById("pic1").innerText="";
+    document.getElementById("pic1").style.backgroundImage="url(\"./pics/simulation.jpg\")";
+}
+
+function text1(){
+    document.getElementById("pic1").innerText="Why I am cool at power systems analisys ... ";
+    document.getElementById("pic1").style.backgroundImage="";
+}
+
+//High voltage
+function pic2(){
+    document.getElementById("pic2").innerText="";
+    document.getElementById("pic2").style.backgroundImage="url(\"./pics/high-voltage.jpg\")";
+}
+
+function text2(){
+    document.getElementById("pic2").innerText="Why I am cool at high voltage ... ";
+    document.getElementById("pic2").style.backgroundImage="";
+}
+
+//Electric machinery
+function pic3(){
+    document.getElementById("pic3").innerText="";
+    document.getElementById("pic3").style.backgroundImage="url(\"./pics/electric-machinery.jpg\")";
+}
+
+function text3(){
+    document.getElementById("pic3").innerText="Why I am cool at electric machinery  ... ";
+    document.getElementById("pic3").style.backgroundImage="";
+}
+
+//Power electronics
+function pic4(){
+    document.getElementById("pic4").innerText="";
+    document.getElementById("pic4").style.backgroundImage="url(\"./pics/power-electronics.jpg\")";
+}
+
+function text4(){
+    document.getElementById("pic4").innerText="Why I am cool at power electronics systems ... ";
+    document.getElementById("pic4").style.backgroundImage="";
+}
+
+pic1();
+pic2();
+pic3();
+pic4();
+
+document.getElementById("pic1").onclick=function(){
+    status++;
+    if(status%2==0){
+        pic1();
+    }else{
+        text1();
+    }
+}
+
+document.getElementById("pic2").onclick=function(){
+    status++;
+    if(status%2==0){
+        pic2();
+    }else{
+        text2();
+    }
+}
+
+document.getElementById("pic3").onclick=function(){
+    status++;
+    if(status%2==0){
+        pic3();
+    }else{
+        text3();
+    }
+}
+
+document.getElementById("pic4").onclick=function(){
+    status++;
+    if(status%2==0){
+        pic4();
+    }else{
+        text4();
+    }
+}

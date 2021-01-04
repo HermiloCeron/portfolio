@@ -64,11 +64,41 @@ footer{
 /* Classes */
 /* ******* */
 
-.buttons{
+.buttons, .etitle{
     background: #404040;
     color: white;
     font-size: 18px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.electrical-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.epic{
+    border: 4px solid #404040;
+    border-radius: 10px; 
+    width: 292px;   
+    height: 292px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.etitle{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
 }
 
 .gridElement{
@@ -177,6 +207,26 @@ footer{
     grid-template-rows: repeat(var(--grid-rows),36px);
     grid-gap:2px;
 }
+
+/* Background image seen in https://www.w3schools.com/cssref/pr_background-image.asp 
+    and https://www.w3schools.com/cssref/css3_pr_background-size.asp */
+/*     
+#pic1{
+    
+    background-image: url("./pics/simulation.jpg");
+}
+
+#pic2{
+    background-image: url("./pics/high-voltage.jpg");
+}
+
+#pic3{
+    background-image: url("./pics/electric-machinery.jpg");
+}
+
+#pic4{
+    background-image: url("./pics/power-electronics.jpg");
+}  */
 
 #software-container{
     display: flex;
