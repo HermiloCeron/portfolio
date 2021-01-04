@@ -64,6 +64,21 @@ footer{
 /* Classes */
 /* ******* */
 
+.about-container{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.about-img{
+    width: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.about-text{
+    font-size: 16px;
+}
+
 .buttons, .etitle{
     background: #404040;
     color: white;
@@ -153,6 +168,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#family{
+    transform: rotate(180deg)
 }
 
 #img-container{
