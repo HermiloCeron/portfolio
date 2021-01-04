@@ -11,13 +11,6 @@ body{
     text-align: center;
 }
 
-button{
-    background: #404040;
-    color: white;
-    font-size: 18px;
-    border-radius: 10px;
-}
-
 h3{
     background: #690F6F;
     color:white; 
@@ -70,6 +63,13 @@ footer{
 /* ******* */
 /* Classes */
 /* ******* */
+
+.buttons{
+    background: #404040;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
 
 .gridElement{
     font-size: 25px;
@@ -125,11 +125,15 @@ footer{
     align-items: center;
 }
 
-#img{
+#img-container{
     grid-row: 2/span 3;
     grid-column: 2;
     border: 4px solid #404040;
     border-radius: 10px;
+}
+
+#img{
+    height: 100%;
 }
 
 #main{
@@ -180,8 +184,12 @@ footer{
     margin-bottom: 20px;
 }
 
-#software-container div{
-    width:90%;
+#software-container2{
+    width: 90%;
+}
+
+#software-grid{
+    width:100%;
     background: white;
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -190,6 +198,10 @@ footer{
 }
 
 #text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
     grid-row: 1;
     grid-column: 2;
     border: 4px solid #404040;
