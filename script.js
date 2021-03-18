@@ -92,7 +92,7 @@ function pic1(){
 }
 
 function text1(){
-    document.getElementById("pic1").innerText="Why I am cool at power systems analisys ... ";
+    document.getElementById("pic1").innerText="Transient and dynamic simulations of power systems for stability analysis";
     document.getElementById("pic1").style.backgroundImage="";
 }
 
@@ -103,7 +103,7 @@ function pic2(){
 }
 
 function text2(){
-    document.getElementById("pic2").innerText="Why I am cool at high voltage ... ";
+    document.getElementById("pic2").innerText="High voltage equipment electromagnetic simulation analysis and testing";
     document.getElementById("pic2").style.backgroundImage="";
 }
 
@@ -114,7 +114,7 @@ function pic3(){
 }
 
 function text3(){
-    document.getElementById("pic3").innerText="Why I am cool at electric machinery  ... ";
+    document.getElementById("pic3").innerText="Magnetic design, prototyping and testing of stationary and rotative electrical machinery";
     document.getElementById("pic3").style.backgroundImage="";
 }
 
@@ -125,7 +125,7 @@ function pic4(){
 }
 
 function text4(){
-    document.getElementById("pic4").innerText="Why I am cool at power electronics systems ... ";
+    document.getElementById("pic4").innerText="Transient simulations of electric drives including inverters, eMachines and cables";
     document.getElementById("pic4").style.backgroundImage="";
 }
 
