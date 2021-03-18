@@ -33,9 +33,9 @@ function frontEnd(){
     document.getElementById("but2").style.opacity=1;
     document.getElementById("but3").style.opacity=1;
     document.getElementById("but4").style.opacity=1;
-    document.getElementById("text").innerText="A summary of my experience at front end web development";
-    document.getElementById("img").src="./pics/front-end-web.jpg";
-    document.getElementById("img").alt="My front end web development projects";
+    document.getElementById("text").innerText="HTML, CSS, JavaScript";
+    document.getElementById("img").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYZdoW9HVpRH_4GkxJJe6kcO7urIOk6cKDVg&usqp=CAU";
+    document.getElementById("img").alt="Front end web development tools";
 }
 
 frontEnd();
@@ -51,9 +51,9 @@ document.getElementById("but2").onclick=function(){
     document.getElementById("but2").style.opacity=0.5;
     document.getElementById("but3").style.opacity=1;
     document.getElementById("but4").style.opacity=1;
-    document.getElementById("text").innerText="A summary of my experience at full stack development";
-    document.getElementById("img").src="./pics/full-stack.jpg";
-    document.getElementById("img").alt="My full stack development projects";
+    document.getElementById("text").innerText="Express js, Node js, Postgres, EJS, Heroku ";
+    document.getElementById("img").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwSAVjxmrnhJ8nXTxNNkwnuaRupLR2GyNG-w&usqp=CAU";
+    document.getElementById("img").alt="Full stack tools";
 }
 
 document.getElementById("but3").onclick=function(){
@@ -61,9 +61,9 @@ document.getElementById("but3").onclick=function(){
     document.getElementById("but2").style.opacity=1;
     document.getElementById("but3").style.opacity=0.5;
     document.getElementById("but4").style.opacity=1;
-    document.getElementById("text").innerText="A summary of my experience at front end framework";
-    document.getElementById("img").src="./pics/front-end-framework.jpg";
-    document.getElementById("img").alt="My front end framework projects";
+    document.getElementById("text").innerText="React js, Redux, redux-thunk, axios, npm ";
+    document.getElementById("img").src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png";
+    document.getElementById("img").alt="Front end framework tools";
 }
 
 document.getElementById("but4").onclick=function(){
@@ -71,8 +71,8 @@ document.getElementById("but4").onclick=function(){
     document.getElementById("but2").style.opacity=1;
     document.getElementById("but3").style.opacity=1;
     document.getElementById("but4").style.opacity=0.5;
-    document.getElementById("text").innerText="A summary of my experience at native python";
-    document.getElementById("img").src="./pics/native-python.jpg";
+    document.getElementById("text").innerText="Using python for scripting FEA software operations";
+    document.getElementById("img").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTIDJ9ROr2gL_1Dbt8G8e5j5Crbp5iElJxJA&usqp=CAU";
     document.getElementById("img").alt="My native python projects";
 }
 
